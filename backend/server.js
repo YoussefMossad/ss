@@ -12,7 +12,6 @@ const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   db_port:3306,
-  PORT=5000,
   password: '', // Add your MySQL password here
   database: 'user_auth'
 });
