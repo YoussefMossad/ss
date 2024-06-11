@@ -9,11 +9,11 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const db = mysql.createConnection({
-  host: 'sql7.freesqldatabase.com',
-  user: 'sql7713373',
+  host: 'localhost',
+  user: 'root',
   db_port:3306,
-  password: ' 6cawCqjAZ5', // Add your MySQL password here
-  database: 'sql7713373'
+  password: '', // Add your MySQL password here
+  database: 'user_auth'
 });
 
 db.connect((err) => {
